@@ -10,11 +10,12 @@ var dataDelimiter = "\n";// or "," or whatever
 var inputData = document.querySelector("pre").innerText.trim().split(dataDelimiter);
 // var inputData = [example]
 
+
+// TODAY'S CODE:
+
 for (var i=0; i < inputData.length; i++) {
     //idk, do stuff with the input data?
 }
-
-// TODAY'S CODE:
 
 logMaybe(inputData);
 

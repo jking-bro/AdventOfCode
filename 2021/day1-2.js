@@ -7,10 +7,8 @@ var loggingActivated = false;
 
 var dataDelimiter = "\n";
 
-var inputData = document.querySelector("pre").innerText.trim().split(dataDelimiter);
-// var inputData = ["199","200","208","210","200","207","240","269","260","263"];
-
-inputData = inputData.map(function(v){return parseInt(v);});
+var inputData = document.querySelector("pre").innerText.trim().split(dataDelimiter).map(function(v){return parseInt(v);});
+// var inputData = [199,200,208,210,200,207,240,269,260,263];
 
 
 // TODAY'S CODE:
